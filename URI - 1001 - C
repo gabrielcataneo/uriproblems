@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <conio.h>
+
+main()
+{
+	int val1, val2, result;
+	
+	printf("Digite o primeiro numero: ");
+	scanf("%d", &val1);
+	
+	printf("Digite aqui o segundo numero: ");
+	scanf("%d", &val2);
+	
+	result = val1 + val2;
+	
+	printf("O resultado da soma de %d com %d e %d .", val1, val2, result);
+
+	getch();
+}
