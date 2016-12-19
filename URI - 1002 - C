@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <conio.h>
+
+main()
+{
+	double area, raio, pi;
+	
+	printf("Informe o valor do raio: ");
+	scanf("%lf", &raio);
+	
+	area = 3.14159 * raio * raio;
+	
+	printf("A area do raio %lf e %.4lf \n", raio, area);
+	
+	getch();
+}
